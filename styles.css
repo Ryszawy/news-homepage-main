@@ -60,9 +60,8 @@ body {
   gap: 2.4rem;
 }
 
-.grid--layout {
-  /* grid-template-columns: 73fr 27fr; */
-  grid-template-columns: 2fr 1fr;
+.grid--3-col {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .grid--2-col {
@@ -128,4 +127,9 @@ body {
 
 .hero-img {
   width: 100%;
+  grid-column: span 2;
+}
+
+.hero-aside {
+  grid-row: span 2;
 }
