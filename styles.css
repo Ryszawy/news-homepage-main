@@ -114,6 +114,7 @@ body {
 
 .hero-section {
   padding-top: 1.6rem;
+  padding-bottom: 3.84rem;
 }
 
 .hero-img {
@@ -195,4 +196,42 @@ hr {
   background-color: var(--primary-soft-red);
   text-transform: uppercase;
   letter-spacing: 0.4rem;
+}
+
+/* Article section */
+.top-article {
+  padding-top: 1.6rem;
+  margin-bottom: 6.4rem;
+}
+
+.article-card {
+  display: flex;
+  gap: 2rem;
+}
+
+.article-img {
+  max-width: 30%;
+  flex-basis: 20rem;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-text span {
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: var(--neutral-grayish-blue);
+}
+
+.heading-tertiary {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--neutral-very-dark-blue);
+}
+
+.card-text--short {
+  font-size: 1.5rem;
 }
